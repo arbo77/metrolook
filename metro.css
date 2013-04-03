@@ -1,0 +1,165 @@
+
+.box .inner{
+  background: transparent no-repeat center center;
+}
+
+
+/** begin of themes **/
+
+.dark .box h1,
+.dark .box h2,
+.dark .box h3,
+.dark .box h4,
+.dark .box h5{
+	margin: 0;
+	color: #ffffff;
+}
+
+.light .box h1,
+.light .box h2,
+.light .box h3,
+.light .box h4,
+.light .box h5{
+	margin: 0;
+	color: #505050;
+}
+
+.dark .box .inner{
+	background-color: #4D4D4D;
+}
+
+.light .box .inner{
+	background-color: #F3F3F3;
+}
+
+
+.blue .box .inner{
+	background-color: #3E4981;
+}
+
+
+/** end of themes **/
+
+.container{
+	margin: 40px auto;
+	padding-bottom: 50px;
+}
+
+.clear-fix{
+	clear: both;
+}
+
+.metro .box{
+	min-height: 60px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+
+.metro .box .inner{
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0px;
+	margin: 5px;
+	overflow: hidden;
+			background-size: 101% auto;
+		 -o-background-size: 101% auto;
+	   -moz-background-size: 101% auto;
+	-webkit-background-size: 101% auto;
+}
+
+.metro .box .bg-pull-h{
+			background-size: auto 101.5%;
+		 -o-background-size: auto 101.5%;
+	   -moz-background-size: auto 101.5%;
+	-webkit-background-size: auto 101.5%;
+	background-position-y: 50%;
+}
+
+.metro .b30{
+	width: 33%;
+}
+
+.metro .b60{
+	width: 66%
+}
+.metro .b25{
+	width: 25%;
+}
+
+.metro .b50{
+	width: 50%;
+}
+
+.metro .b75{
+	width: 75%;
+}
+
+.metro .b100{
+	width: 100%;
+}
+
+.metri .fit-height{
+	height: auto;
+}
+
+.metro .box div:hover{
+	opacity: 1;
+	-o-opacity: 1;
+	-ms-opacity: 1;
+	-moz-opacity: 1;
+	-webkit-opacity: 1;
+}
+
+.metro .red .inner{
+	background: #FF6666;
+	color: #ffffff;
+}
+
+.metro .orange .inner{
+	background: #F57600;
+	color: #ffffff;
+}
+
+.metro .blue .inner{
+	background: #6688FF;
+	color: #ffffff;
+}
+
+.metro .green .inner{
+	background: #88C30D;
+	color: #ffffff;
+}
+
+.metro .white .inner{
+	background: white;
+	color: #393939;
+}
+
+.metro .empty .inner{
+	background: transparent;
+}
+
+.metro .box div .text{
+	padding: 10px;
+	overflow: hidden;
+}
+
+.metro .box .using-bg .text:not(:empty){
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.7);
+	color: #E3E3E3;
+	transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+
+.metro .box .using-bg:hover .text:not(:empty){
+	height: 100%;
+}
